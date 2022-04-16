@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<title>Our Funky HTML Page</title>
+<meta name="description" content="Our first page">
+<meta name="keywords" content="html tutorial template">
+</head>
+<style>
+    video#backgroundvid {
+position: fixed; right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -100;
+background: url(polina.jpg) no-repeat;
+background-size: cover;
+}
+</style>
+<body>
+    <video poster="placeholder.jpg" id="backgroundvid">
+        <source src="video.webm" type='video/webm; codecs="vp8.0, vorbis"'>
+        <source src="video.ogv" type='video/ogg; codecs="theora, vorbis"'>
+        <source src="Takeshi.mp4" type='video/mp4; codecs="avc1.4D401E, mp4a.40.2"'>
+        <p>Fallback content to cover incompatibility issues</p>
+    </video>
+</body>
+</html>
+
